@@ -1,4 +1,4 @@
 vision-agent==0.2.245
 streamlit
-opencv-python
+opencv-python-headless
 
