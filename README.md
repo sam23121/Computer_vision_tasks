@@ -9,7 +9,7 @@ This repository contains different implementations for computer vision tasks.
 ## Overview
 The first two notebooks focus on image segmentation and object detection using pretrained models. Both notebooks use an apples dataset from Roboflow.com, which is an excellent resource for computer vision tasks.
 
-The third notebook implements an agentic object detection system specifically for identifying peas, onions and mushrooms in images (note: currently does not work for beans, corn, or tomatoes). This provides a more direct approach to the problem.
+The third is in a folder called agentic_object_detection. This leverages the vision-agent api to implement an agentic object detection system specifically for identifying peas, onions and mushrooms in images (note: currently does not work for beans, corn, or tomatoes). This provides a more direct approach to the problem and is more cost effective than the other two approaches.
 
 You can test the implementation:
 - Using your own images to evaluate accuracy
