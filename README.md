@@ -2,8 +2,19 @@
 This repository contains different implementations for computer vision tasks.
 
 ## Contents
-- A simple notebook demonstrating image segmentation using Detectron2 (to be added)
+- A simple notebook demonstrating image segmentation using Detectron2 
 - A simple notebook showing object detection with YOLOv8
-- An agentic object detection implementation that can be used to detect peas, onions and mushrooms in any image. This is a more interesting and direct approach to the problem. Feel free to test it with other images to evaluate its accuracy! or go to the app.py file to test it with a web interface. it is also hosted on https://legumes-differentiator.streamlit.app/ it may take a while to load.
+- An agentic object detection implementation for detecting peas, onions and mushrooms
 
-Note: While there were other object detection and segmentation models considered, due to computational resource constraints, only these three approaches were explored. The code does not follow good coding standards or implement a complete end-to-end pipeline - rather, it serves as a demonstration of potential approaches to these computer vision tasks.
+## Overview
+The first two notebooks focus on image segmentation and object detection using pretrained models. Both notebooks use an apples dataset from Roboflow.com, which is an excellent resource for computer vision tasks.
+
+The third notebook implements an agentic object detection system specifically for identifying peas, onions and mushrooms in images (note: currently does not work for beans, corn, or tomatoes). This provides a more direct approach to the problem.
+
+You can test the implementation:
+- Using your own images to evaluate accuracy
+- Through the web interface in app.py
+- Via the hosted version at https://legumes-differentiator.streamlit.app/ (may take time to load)
+
+## Note
+While other object detection and segmentation models were considered, computational resource constraints limited exploration to these three approaches. The code serves as a demonstration of potential approaches rather than a production-ready implementation with complete end-to-end pipeline and coding standards.
